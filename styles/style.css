@@ -71,7 +71,7 @@ body{
 
 .col_detail{
     float: left;
-    column-count: 3;
+    column-count: 2;
     column-rule: 1px solid white;
     column-gap: 50px;
     padding: 20px;
