@@ -1,0 +1,97 @@
+header{
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+
+#content{
+    float: left;
+    width: 80%;
+    margin-left: 5px;
+    margin-right: 1em;
+    border: 1px solid grey;
+}
+
+#bigPic{
+    width: 100%;
+}
+
+aside{
+    border: 1px solid green;
+    width: 18%;
+    float: right;
+}
+
+aside ul li a{
+    color:blue;
+    text-decoration: none;
+}
+
+aside ul li {
+    list-style-type: none;
+}
+
+nav{
+    background-color: grey;
+    padding: 5px;
+    border: 1px solid green;
+    border-radius: 6px;
+}
+
+nav ul, footer ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li, footer ul li{
+    list-style-type: none;
+    background-color: lightgray;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+}
+
+nav ul li a, footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover, footer ul li:hover{
+    background-color: lightgreen;
+}
+
+body{
+    background-color: black;
+    color:white;
+    text-align:center;
+}
+
+.col_detail{
+    float: left;
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 20px;
+}
+
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+p{
+    text-align: left;
+}
